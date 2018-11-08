@@ -20,7 +20,7 @@ It is then invoked as follows:
 
 `./cbc <host> <port>`
 
-The <host> is the IP address of the machine where the backdoor resides and the <port> is the port that 
+The &lt;host&gt; is the IP address of the machine where the backdoor resides and the &lt;port&gt; is the port that 
 the backdoor is listening on
 
 <h2>Backdoor</h2>
@@ -29,5 +29,5 @@ The backdoor is created by using the makefile provided and is simply invoked as 
 
 `./backdoor <packets> "udp and port <port>"`
 
-The <packets> is how many packets that will be sniffed by the backdoor before exiting. It can be set to 0 or -1 to be ran indefinitely.
-The <port> is the port that the backdoor will look for when it is sniffing packets to identify which packets are aimed for it.
+The &lt;packets&gt; is how many packets that will be sniffed by the backdoor before exiting. It can be set to 0 or -1 to be ran indefinitely.
+The &lt;port&gt; is the port that the backdoor will look for when it is sniffing packets to identify which packets are aimed for it.
